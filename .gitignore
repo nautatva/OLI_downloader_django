@@ -176,3 +176,4 @@ gunicorn_conf.py
 prod.sh
 
 uploads/
+staticfiles/
