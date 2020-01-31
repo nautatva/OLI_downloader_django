@@ -1,0 +1,8 @@
+<div class="container">
+  All videos are
+  <br>
+  {% for video in videos %}
+  <strong>{{ video }}</strong> Language = {{ video.language_name }}
+  <br>
+  {% endfor %}
+</div>
